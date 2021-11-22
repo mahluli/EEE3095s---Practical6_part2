@@ -18,7 +18,7 @@ from flask import Flask
     #Test this locally before trying to deploy via balena using test messages instead of ADC values
     #Use localmode when deploying to balena and use the advertised local address (using public IPs is possible but more complicated to configure due to the security measures BalenaOS imposes by default.  These are a good thing for real world deployment but over complicate the prac for the immediate purposes
 
-HOST = "172.18.0.2"  # The server's hostname or IP address
+HOST = "192.168.209.124"  # The server's hostname or IP address
 PORT = 65432        # The port used by the server
 #message = "Hellow dee"
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
